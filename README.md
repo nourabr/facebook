@@ -12,7 +12,7 @@ Para aqueles que estão aprendendo ou que desejam melhoras suas habilidades em F
 Sintam-se livres para fazer o download o código para consulta ou para torná-lo ainda melhor do que já está.
 
 Preview:
-"[Screenshot do Projeto] (preview.png)
+![Screenshot do Projeto] (img/preview.png)
 
 
 
