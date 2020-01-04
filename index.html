@@ -4,96 +4,309 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Noura the Greitis">
+    <link rel="shortcut icon" href="img/facebook-icon.png" type="image/x-icon">
+    <title>Facebook - Log in or Sign up by Noura</title>
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Google</title>
+
+    <!-- Fontes Pagas - Peguei pelo Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/swi6yqf.css">
+    
 </head>
 
-<!-- INÍCIO do body -->
+<!-- INÍCIO do Body -->
 <body>
     
-    <!-- INÍCIO do header -->
+    <!-- INÍCIO do Header     -->
     <header>
-        
-        <!-- INÍCIO do Menu Principal -->
-            <nav>
-                <!-- INÍCIO UL -->
-                <ul>
-                    <li>Gmail</li>
-                    <li>Imagens</li>
-                    <!-- Bandeja de Aplicativos -->
-                    <li><img src="img/menu-opcoes.png" alt="Google Apps" title="Google Apps"></li>
-                    <!-- Botão de Login -->
-                    <li><button>Fazer login</button></li>
-                </ul>
-                <!-- FIM UL -->
-            </nav>
-        <!-- FIM do Menu Principal -->
 
-        </header>
-    <!-- FIM do header -->
+        <!-- INÍCIO Container Header -->
+        <section id="container-header">
 
-    <!-- INÍCIO Conteúdo Principal -->
-    <main>
-        <!-- CONTAINER do Main -->
-        <section id="container-main">
-            <!-- Logo Google -->
-            <section class="logotipo">
-                <img src="img/google-logo.png" alt="Logo Google">
-            </section>
-            <!-- FIM Logo Google -->
-
-            <!-- Barra de Pesquisa -->
-            <section class="barra-pesquisa">
-                <img class="lupa" src="img/lupa.png" alt="Lupa">
-                <input type="text" autofocus title="Pesquisar">
-                <img class="tecrado" src="img/tecrado.png" alt="Ferramenta de inserção de texto" title="Ferramenta de inserção de texto">
-            </section>
-            <!-- FIM Barra de Pesquisa -->
-
-            <!-- Botões de Pesquisa -->
-            <section class="botoes-pesquisa">
-                <button>Pesquisa Google</button>
-                <button>Estou com sorte</button>
-            </section>
-            <!--FIM Botões de Pesquisa -->
-
-            <p class="p-conteudo-idioma">Disponibilizado pelo Google em: <a href="#">English</a></p>
+            <!-- INÍCIO do Logo Container -->
+        <section id="logo">
+            <img src="img/facebook-logo.png" alt="Facebook">        
         </section>
-        <!-- FIM CONTAINER do Main -->
+        <!-- FIM do Logo Container -->
+
+        <!-- INÍCIO do Login Container -->
+        <section id="form-login">
+
+            <!-- INÍCIO formulario de Login -->
+            <form>
                 
-    </main>
-    <!-- FIM Conteúdo Principal -->
+                <!-- TABELA de Login -->
+                <table>
+                    <tr>
+                        <td><label for="email">Email or Phone</label></td>
+                        <td><label for="pass">Password</label></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><input name="email" type="text"></td>
+                        <td><input type="password"></td>
+                        <td><button type="submit">Log In</button></td>
+                    </tr>
+                    
+                    <tr>
+                        <td></td>
+                        <td><a href="#"><p>Forgot account?</p></a></td>
+                    </tr>
+                </table>
+                <!-- FIM TABELA de Login -->
+                
+            </form>
+            <!-- FIM formulario de Login -->
+
+        </section>
+        <!-- FIM do Login Container -->
+            
+        </section>
+        <!-- FIM Container Header -->
     
-    <!-- INÍCIO do Footer -->
+    </header>
+    <!-- FIM do Header     -->
+    
+    
+    <!-- INÍCIO MAIN -->
+    <main>
+        
+        <!-- CONTAINER Conteúdo Principal -->
+        <section id="container-main">
+
+            <!-- INÍCIO conteúdo left -->
+            <section id="conteudo-left">
+            <h1>Connect with friends and the <br>world around you on Facebook.</h1>
+
+                <!-- See Photos article-->
+                <article>
+
+                    <img src="img/see-photos.png" alt="See photos and updates">
+                    <p><strong>See photos and updates</strong><span class="cinza-claro"> from friends in News Feed.</span></p>
+
+                </article>
+
+                <!-- Shares what's new Photos article-->
+                <article>
+
+                    <img src="img/share-whats.png" alt="Share what's new">
+                    <p><strong>Share what's new</strong><span class="cinza-claro"> in your life on your Timeline.</span></p>
+
+                </article>
+
+                <!-- Find more Photos article-->
+                <article>
+
+                    <img src="img/find-more.png" alt="Find more">
+                    <p><strong>Find more</strong> <span class="cinza-claro"> of what you're looking for with Facebook Search.</span></p>
+
+                </article>
+
+            </section>
+            <!-- FIM conteúdo left -->
+        
+            <!-- INÍCIO conteúdo right -->
+            <section id="conteudo-right">
+                <h2>Sign Up</h2>
+                <h3>It's quick and easy.</h3>
+
+                <!-- INÍCIO SIGN UP Form  -->
+                <form>
+                    <input class="input-metade" placeholder="First name" type="text">
+                    <input class="input-metade" placeholder="Last name" type="text">
+                    <input class="input-inteiro" placeholder="Mobile number or email" type="text">
+                    <input class="input-inteiro" placeholder="New password" type="password">
+
+                    <h4>Birthday</h4>
+                    <select list="mes">
+                        <option value="0">Month</option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+
+                    <select list="dia">
+                        <option value="0">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+
+                    <select list="ano">
+                        <option value="0">Year</option>
+                        <option value="0">2019</option>
+                        <option value="1">2018</option>
+                        <option value="2">2017</option>
+                        <option value="3">2016</option>
+                        <option value="4">2015</option>
+                        <option value="5">2014</option>
+                        <option value="6">2013</option>
+                        <option value="7">2012</option>
+                        <option value="8">2011</option>
+                        <option value="9">2010</option>
+                        <option value="10">2009</option>
+                        <option value="11">2008</option>
+                        <option value="12">2007</option>
+                        <option value="13">2006</option>
+                        <option value="14">2005</option>
+                        <option value="15">2004</option>
+                        <option value="16">2003</option>
+                        <option value="17">2002</option>
+                        <option value="18">2001</option>
+                        <option value="19">2000</option>
+                        <option value="20">1999</option>
+                        <option value="21">1998</option>
+                        <option value="22">1997</option>
+                        <option value="23">1996</option>
+                        <option value="24">1995</option>
+                        <option value="25">1994</option>
+                        <option value="26">1993</option>
+                        <option value="27">1992</option>
+                        <option value="28">1991</option>
+                        <option value="29">1990</option>
+                        <option value="30">1989</option>
+                        <option value="31">1988</option>
+                    </select>
+
+
+                    <!-- ÍCONE ? -->
+                    <i class="icone-interrogacao"><img src="img/interrogation.png" title="Click for more information"></i>
+                    <!-- FIM ÍCONE ? -->
+                    
+                    <h4>Gender</h4>
+                    <input class="radio" type="radio" name="gender" id="female" value="1">
+                    <label for="female">Female</label>
+
+                    <input class="radio" type="radio" name="gender" id="male" value="2">
+                    <label for="male">Male</label>
+
+                    <input class="radio" type="radio" name="gender" id="custom" value="3">
+                    <label for="custom">Custom <i class="icone-interrogacao"><img src="img/interrogation.png" title="Click for more information"></i></label>
+
+                    <p class="termos">
+                        By clicking Sign Up, you agree to our <a href="#">Terms, Data Policy</a> and <br><a href="#">Cookies Policy</a>. You may receive SMS Notifications from us and <br>can opt out any time.
+                    </p>
+
+                    <button type="submit">Sign Up</button>
+
+                    <!-- Linha Horizontal -->
+                    <hr/>
+
+                </form>
+                <!-- FIM SIGN UP Form  -->
+
+                <p class="p-maior"><a href="#">Create a Page</a> <span class="cinza-claro">for a celebrity, band or business.</span></p>
+
+            </section>
+            <!-- FIM conteúdo right -->
+
+            </section>
+        <!-- FIM CONTAINER Conteúdo Principal -->
+        
+
+    </main>
+    <!-- FIM MAIN -->
+
+    
+    <!-- INÍCIO Footer -->
     <footer>
 
-        <!-- País -->
-        <section class="pais"><p>Brasil</p></section>
-
-        <!-- CONTAINER FOOTER -->
-        <section class="container-footer">
-
-        <!-- Links esquerda -->
-        <ul class="links-esquerda">
-            <a href="#"><li>Publicidade</li></a>
-            <a href="#"><li>Negócios</li></a>
-            <a href="#"><li>Sobre</li></a>
-            <a href="#"><li>Como funciona a Pesquisa</li></a>
+        <!-- INÍCIO idiomas -->
+        <ul id="idiomas">
+            <li>English (US)</li>
+            <a href="#"><li>Português (Brasil)</li></a>
+            <a href="#"><li>Español</li></a>
+            <a href="#"><li>Français (France)</li></a>
+            <a href="#"><li>Italiano</li></a>
+            <a href="#"><li>Deutsch</li></a>
+            <a href="#"><li>العربية</li></a>
+            <a href="#"><li>हिन्दी</li></a>
+            <a href="#"><li>中文(简体)</li></a>
+            <a href="#"><li>日本語</li></a>
+            <li class="botao-mais">+</li>
+            
         </ul>
-        <!-- FIM Links esquerda -->
-        <!-- Links direita -->
-        <ul class="links-direita">
-            <a href="#"><li>Privacidade</li></a>
-            <a href="#"><li>Termos</li></a>
-            <a href="#"><li>Configurações</li></a>
+        <!-- FIM idiomas -->
+
+        <hr class="hr2">
+
+        <!-- INÍCIO linkagem -->
+        <ul id="linkagem">
+            <a href="#"><li>Sign Up</li></a>
+            <a href="#"><li>Log In</li></a>
+            <a href="#"><li>Messenger</li></a>
+            <a href="#"><li>Facebook Lite</li></a>
+            <a href="#"><li>Watch</li></a>
+            <a href="#"><li>People</li></a>
+            <a href="#"><li>Pages</li></a>
+            <a href="#"><li>Page Categories</li></a>
+            <a href="#"><li>Places</li></a>
+            <a href="#"><li>Games</li></a>
+            <a href="#"><li>Locations</li></a>
+            <a href="#"><li>Marketplace</li></a>
+            <a href="#"><li>Groups</li></a>
+            <a href="#"><li>Instagram</li></a>
+            <a href="#"><li>Local</li></a>
+            <a href="#"><li>Fundraisers</li></a>
+            <a href="#"><li>Services</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Create Ad</li></a>
+            <a href="#"><li>Create Page</li></a>
+            <a href="#"><li>Developers</li></a>
+            <a href="#"><li>Careers</li></a>
+            <a href="#"><li>Privacy</li></a>
+            <a href="#"><li>Cookies</li></a>
+            <a href="#"><li>Ad Choices <i class="i-ads"><img src="img/ads.png" title="Learn about Ad Choices"></i></li></a>
+            <a href="#"><li>Terms</li></a>
+            <a href="#"><li>Help</li></a>
+            
         </ul>
-        <!-- FIM Links direita -->
-        </section>
-        <!-- FIM CONTAINER FOOTER -->
+        <!-- FIM Linkagem -->
+
+        <p> Facebook © 2019</p>
 
     </footer>
-    <!-- FIM do Footer -->
-    
+    <!-- FIM Footer -->
+
 </body>
-<!-- FIM do body -->
+<!-- FIM do Body -->
+
+
 </html>
